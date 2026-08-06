@@ -1,0 +1,34 @@
+
+# --- Pluto.jl Specifics ---
+# Ignore the external backup files Pluto creates when saving
+*.jl.bak
+*.pluto.jl.bak
+
+# --- Jupyter/Notebook Artifacts ---
+# In case you export or use mixed tools
+.ipynb_checkpoints/
+*.html
+*.pdf
+
+# --- Data & Logs ---
+# Always keep heavy datasets out of version control
+csv/
+logs/
+*.csv
+*.xlsx
+*.parquet
+*.sqlite
+
+# --- Standard Julia Files ---
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+*.ji
+*.jld2
+LocalPreferences.toml
+JuliaLocalPreferences.toml
+
+# --- IDEs & OS ---
+.DS_Store
+.vscode/
+.idea/
